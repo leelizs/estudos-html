@@ -1,4 +1,4 @@
-# _aprendizado_
+# **Estudos**
 #EMMET
 #MARKDOWN
 # VSCODE ATALHOS
