@@ -45,3 +45,7 @@ footer {
 iframe {
     border: 1px solid rgb(55, 0, 255);
 }
+
+table, th, td {
+    border: 1px solid black;
+  }
