@@ -1,4 +1,10 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: Helvetica;
     text-align: center;
     color: #fff;
@@ -7,24 +13,24 @@ body{
     margin: 0;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     padding: 20px;
     border-bottom: 1px solid #666;
 }
 
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
     list-style: none;
 }
 
-ul li{
+ul li {
     margin-right: 12px;
 }
 
-ul li a{
+ul li a {
     color: #fff;
 }
 
@@ -46,6 +52,26 @@ iframe {
     border: 1px solid rgb(55, 0, 255);
 }
 
-table, th, td {
+th,
+td {
     border: 1px solid black;
-  }
+    border-radius: 10px;
+    border-color: #6d058d;
+}
+
+table {
+    width: 100%;
+}
+
+table caption {
+    width: 100%;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #e90c0c;
+}
+
+tr:hover {
+    background-color: #0804ff;
+}
