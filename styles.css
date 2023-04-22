@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.corpo {
+    background-color: rgb(255, 0, 200);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.corpo h1:hover {
+    color: rgb(50, 36, 255);
+}
+
+h1 {
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+.link-texto:hover {
+    color: rgb(50, 36, 255);
+}
+
+.link-texto {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.produtos-doces {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.card-doces {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(50, 36, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.card-doces:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transform: scale(1.1);
+}
+
+.card-doces img{
+    width: 100%;
+    height: 150px;
+}
+
+.card-doces h2{
+   font-size: 20px;
+   color: white;
+   text-align: center;
+}
+
