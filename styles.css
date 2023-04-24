@@ -6,7 +6,7 @@
 
 .corpo {
     background-color: rgb(255, 0, 200);
-    color: white;
+    color: #ddd;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,7 +23,7 @@ h1 {
 }
 
 a {
-    color: white;
+    color: #ddd;
     text-decoration: none;
 }
 
@@ -71,7 +71,38 @@ a {
 
 .card-doces h2{
    font-size: 20px;
-   color: white;
+   color: #ddd;
    text-align: center;
 }
+
+
+h2 button{
+    background: rgb(50, 36, 255);
+    border-radius: 6px;
+    cursor: pointer;
+    color: #ddd;
+    border: none; 
+    font-size: 20px;
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+  h2:before, h2:after {
+    background-color: #ddd;
+    content: '\a0';
+    flex-grow: 1;
+    height: 1px;
+    position: relative;
+    top: 0.5em;
+  }
+  h2:before {
+    margin-right:10px;
+  }
+  h2:after {
+    margin-left:10px;
+  }
 
