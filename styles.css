@@ -56,7 +56,7 @@ a {
     background-color: rgb(50, 36, 255);
     border-radius: 10px;
     overflow: hidden;
-    
+
 }
 
 .card-doces:hover {
@@ -64,24 +64,24 @@ a {
     transform: scale(1.1);
 }
 
-.card-doces img{
+.card-doces img {
     width: 100%;
     height: 150px;
 }
 
-.card-doces h2{
-   font-size: 20px;
-   color: #ddd;
-   text-align: center;
+.card-doces h2 {
+    font-size: 20px;
+    color: #ddd;
+    text-align: center;
 }
 
 
-h2 button{
+h2 button {
     background: rgb(50, 36, 255);
     border-radius: 6px;
     cursor: pointer;
     color: #ddd;
-    border: none; 
+    border: none;
     font-size: 20px;
 }
 
@@ -90,19 +90,28 @@ h2 {
     flex-direction: row;
     justify-content: center;
     text-align: center;
-  }
-  h2:before, h2:after {
+}
+
+h2:before,
+h2:after {
     background-color: #ddd;
     content: '\a0';
     flex-grow: 1;
     height: 1px;
     position: relative;
     top: 0.5em;
-  }
-  h2:before {
-    margin-right:10px;
-  }
-  h2:after {
-    margin-left:10px;
-  }
+}
+
+h2:before {
+    margin-right: 10px;
+}
+
+h2:after {
+    margin-left: 10px;
+}
+
+span {
+    color: red;
+    display: none;
+}
 
