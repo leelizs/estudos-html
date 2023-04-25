@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+.home {
+    background: #1b1b1c;
+}
+
 .header {
     height: 50px;
     background-color: #000000;
@@ -80,3 +84,41 @@
     display: flex;
 }
 
+.container-title p {
+    padding: 2px 5px;
+    background: #0f0f0f;
+    font-weight: 700;
+    color: #fff;
+    font-size: 13px;
+    display: inline-block;
+    width: 100%;
+}
+
+ul.abc {
+    width: 100%;
+    background: #2c2c2c;
+    white-space: nowrap;
+    overflow: auto;
+    text-align: center;
+}
+
+.container-abc > ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style: none;
+}
+
+ul.abc li {
+    display: inline-block;
+    padding: 15px 15px;
+}
+
+ul.abc li a{
+    text-decoration: none;
+    color: rgb(122, 122, 122);
+}
