@@ -1,0 +1,11 @@
+button {
+    border: 5px solid blue;
+    border-radius: 10px;
+    opacity: 0.5;
+    height: 500px;
+    width: 500px;
+    background-image: url("https://animesonlinecc.to/wp-content/uploads/2019/07/oO5tir7lV4slZHTyhW8lTFrgyif-185x278.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
