@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.roxo {
+    height: 200px;
+    background-color: blueviolet;
+    margin-bottom: 10px;
+    border: 10px solid green;
+}
+
+.red {
+    background-color: red;
+    height: 100%;
+}
+
+button {
+  display: none;
+}
+
+div + p {
+
+}
