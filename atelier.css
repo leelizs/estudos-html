@@ -5,42 +5,43 @@
 }
 
 body {
-    background-color: purple;
-}
-
-.home {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.home h1 {
-    padding: 12px;
-    text-transform: uppercase;
+    background-color: rgb(255, 0, 200);
     font-family: 'Roboto', sans-serif;
-    cursor: pointer;
+    text-transform: uppercase;
     color: white;
 }
 
-.home h1:hover {
-    color: red;
+.title-atelier {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.title-atelier h1:hover {
+    color: rgb(0, 4, 255);
+}
+
+.s_links {
+    display: flex;
+    padding-bottom: 50px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.link {
+    display: flex;
+    gap: 30px;
+}
+
+.link-texto:hover {
+    color: rgb(0, 4, 255);
 }
 
 a {
     text-decoration: none;
     color: white;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-}
-
-.links {
-    display: flex;
-    gap: 50px;
-}
-
-.link-texto:hover {
-    color: red;
 }
 
 .image {
@@ -55,7 +56,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-color: rgb(255, 0, 255);
+    background-color: rgb(255, 93, 220);
     border-radius: 10px;
     overflow: hidden;
 
@@ -78,7 +79,7 @@ a {
 }
 
 h2 button {
-    background: rgb(255, 0, 255);
+    background: rgb(255, 93, 220);
     border-radius: 6px;
     cursor: pointer;
     color: #ddd;
@@ -112,50 +113,39 @@ h2:after {
 }
 
 .title-image {
-    color: white;
     display: flex;
     justify-content: center;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
 }
 
 .title-image h1:hover {
-    color: red;
+    color: rgb(0, 4, 255);
     cursor: pointer;
 }
 
 .sobre {
     margin-top: 30px;
-    background-color: rgb(155, 0, 155);
+    background-color: rgb(255, 0, 200);
 }
 
 .sobre h1 {
     display: flex;
-    color: white;
     padding-top: 20px;
     justify-content: center;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
 }
 
 .sobre p {
-    color: white;
     padding-top: 8px;
-    font-family: 'Roboto', sans-serif;
     margin-left: 12px;
 }
 
 .title-mais-produtos {
-    color: white;
     display: flex;
     margin-top: 30px;
     justify-content: center;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
 }
 
 .title-mais-produtos h1:hover {
-    color: red;
+    color: rgb(0, 4, 255);
     cursor: pointer;
 }
 
