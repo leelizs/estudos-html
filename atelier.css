@@ -41,6 +41,7 @@ body {
 
 a {
     text-decoration: none;
+    text-transform: initial;
     color: white;
 }
 
@@ -52,6 +53,8 @@ a {
 }
 
 .link-image {
+    border: 6px solid rgb(255, 126, 227);
+    border-radius: 25px;
     width: 200px;
     display: flex;
     flex-direction: column;
@@ -135,6 +138,7 @@ h2:after {
 
 .sobre p {
     padding-top: 8px;
+    text-transform: initial;
     margin-left: 12px;
 }
 
@@ -159,4 +163,23 @@ h2:after {
 
 .link-image {
     margin-top: 7px;
+}
+
+.mais-produtos {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.mais-produtos a {
+    text-decoration: underline;
+}
+
+.mais-produtos a:hover {
+    color: rgb(0, 4, 255);
+}
+
+footer {
+    text-transform: initial;
+    margin-top: 30px;
+    text-align: center;
 }
