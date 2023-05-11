@@ -4,80 +4,85 @@
     box-sizing: border-box;
 }
 
-.corpo {
+body {
     background-color: rgb(255, 0, 200);
-    color: #ddd;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.corpo h1:hover {
-    color: rgb(50, 36, 255);
-}
-
-h1 {
-    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
+    color: white;
 }
 
-a {
-    color: #ddd;
-    text-decoration: none;
+.title-atelier {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin-top: 30px;
+    cursor: pointer;
 }
 
-.links {
+.title-atelier h1:hover {
+    color: rgb(0, 4, 255);
+}
+
+.s_links {
+    display: flex;
+    padding-bottom: 50px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.link {
     display: flex;
     gap: 30px;
 }
 
 .link-texto:hover {
-    color: rgb(50, 36, 255);
+    color: rgb(0, 4, 255);
 }
 
-.link-texto {
-    font-size: 20px;
-    text-transform: capitalize;
+a {
+    text-decoration: none;
+    text-transform: initial;
+    color: white;
 }
 
-.produtos-doces {
-    display: flex;
+.image {
     justify-content: space-between;
+    display: flex;
     padding: 20px;
     cursor: pointer;
 }
 
-.card-doces {
+.link-image {
+    border: 6px solid rgb(255, 126, 227);
+    border-radius: 25px;
     width: 200px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-color: rgb(50, 36, 255);
+    background-color: rgb(255, 93, 220);
     border-radius: 10px;
     overflow: hidden;
 
 }
 
-.card-doces:hover {
+.link-image:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     transform: scale(1.1);
 }
 
-.card-doces img {
+.link-image img {
     width: 100%;
     height: 150px;
 }
 
-.card-doces h2 {
+.link-image h2 {
     font-size: 20px;
     color: #ddd;
     text-align: center;
 }
 
-
 h2 button {
-    background: rgb(50, 36, 255);
+    background: rgb(255, 93, 220);
     border-radius: 6px;
     cursor: pointer;
     color: #ddd;
@@ -110,8 +115,71 @@ h2:after {
     margin-left: 10px;
 }
 
-span {
-    color: red;
-    display: none;
+.title-image {
+    display: flex;
+    justify-content: center;
 }
 
+.title-image h1:hover {
+    color: rgb(0, 4, 255);
+    cursor: pointer;
+}
+
+.sobre {
+    margin-top: 30px;
+    background-color: rgb(255, 0, 200);
+}
+
+.sobre h1 {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.sobre p {
+    padding-top: 8px;
+    text-transform: initial;
+    margin-left: 12px;
+}
+
+.title-mais-produtos {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.title-mais-produtos h1:hover {
+    color: rgb(0, 4, 255);
+    cursor: pointer;
+}
+
+.quero-mais-produtos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.link-image {
+    margin-top: 7px;
+}
+
+.mais-produtos {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.mais-produtos a {
+    text-decoration: underline;
+}
+
+.mais-produtos a:hover {
+    color: rgb(0, 4, 255);
+}
+
+footer {
+    text-transform: initial;
+    margin-top: 30px;
+    text-align: center;
+}
