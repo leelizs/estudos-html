@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: pink;
+    color: white;
+}
+
+.title-home {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.title-home h1{
+    background-color: rgb(255, 223, 228);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.links {
+    display: flex;
+    background-color: rgb(255, 223, 228);
+    margin-top: 30px;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.link {
+    background-color: rgb(255, 0, 221);
+    border-radius: 25px;
+    border: 6px solid rgb(255, 0, 221);
+}
