@@ -1,9 +1,9 @@
 
-var modal = document.getElementById("myModal");
+var modal = document.getElementById("Modal2");
 
-var btn = document.getElementById("myBtn");
+var btn = document.getElementById("Btn2");
 
-var span = document.getElementsByClassName("close-ver-sobre")[0];
+var span = document.getElementsByClassName("close-sobre")[0];
 btn.onclick = function() {
   modal.style.display = "block";
 }

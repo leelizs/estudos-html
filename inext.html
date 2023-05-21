@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/inextlogo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="inext.css">
+    <title>Trabalho Inext</title>
+</head>
+
+<body>
+    <!-- Título da página -->
+    <div class="page-title">
+        <h1>Mapa de Rede - Leonardo Melo</h1>
+    </div>
+
+    <!-- Container da página -->
+    <div class="container-page">
+        <div class="s_links">
+            <a href="https://www.instagram.com/leelizs/" target="_blank" class="link">Contato</a>
+            <a href="" class="link">Sobre</a>
+            <a href="" class="link">Produtos</a>
+        </div>
+        <div class="servidor">
+            <h1>Servidor |</h1>
+            <!-- Modal -->
+            <div class="botao">
+                <button id="myBtn">Ver sobre</button>
+            </div>
+            <div id="myModal" class="modal-ver-sobre">
+                <!-- Conteúddo dentro do Modal "ver mais" -->
+                <div class="modal-content-ver-sobre">
+                    <span class="close-ver-sobre">&times;</span>
+                    <h1>Informações:</h1>
+                    <p>Servidor: Dell PowerEdge</p>
+                    <p>Valor: 9.040,97</p>
+                    <p>Processador: <a class="a-info"
+                            href="https://servercenter.com.br/produto/servidor-dell-poweredge-t150-e-2324g-2x8gb-2x-hdd-2tb-l608025b/"
+                            target="_blank">Intel® Xeon® E-2324G</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="container-content">
+            <div class="roteador">
+                <h1>Roteador |</h1>
+                <!-- Modal -->
+                <div class="botao">
+                    <button id="Btn2">Ver sobre</button>
+                </div>
+                <div id="Modal2" class="modal-ver-sobre">
+                    <!-- Conteúddo dentro do Modal "ver mais" -->
+                    <div class="modal-content-ver-sobre">
+                        <span class="close-sobre">&times;</span>
+                        <h1>Informações:</h1>
+                        <p>Roteador: TP-Link Archer</p>
+                        <p>Valor: 1.099,00</p>
+                        <p>Acessar Sobre: <a class="a-info"
+                                href="https://www.amazon.com.br/Roteador-TP-Link-Archer-AX73-Gigabit/dp/B08P94H63W/ref=asc_df_B08P94H63W/?tag=googleshopp00-20&linkCode=df0&hvadid=379794926600&hvpos=&hvnetw=g&hvrand=5093423035715169747&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9100093&hvtargid=pla-1158451788144&psc=1"
+                                target="_blank">Roteador</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="login">
+                <div class="login-container">
+                    <button onclick="document.getElementById('id01').style.display='block'"
+                        style="width:auto;">Logar no Roteador</button>
+
+                    <div id="id01" class="modal">
+
+                        <form class="modal-content animate" action="/action_page.php" method="post">
+                            <div class="imgcontainer">
+                                <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                                    title="Close Modal">&times;</span>
+                                <img src="images/inextlogo.ico" alt="Avatar" class="avatar">
+                            </div>
+
+                            <div class="container">
+                                <label for="uname"><b>Usuário</b></label>
+                                <input type="text" placeholder="Exemplo: Leonardo" name="uname" required>
+
+                                <label for="psw"><b>Senha</b></label>
+                                <input type="password" placeholder="Exemplo: 79880439" name="psw" required>
+
+                                <button type="submit">Entrar</button>
+                                <label>
+                                    <input type="checkbox" checked="checked" name="remember"> Lembre de mim
+                                </label>
+                            </div>
+
+                            <div class="container">
+                                <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                                    class="cancelbtn">Cancelar</button>
+                                <span class="psw">Esqueceu a <a href="#">Senha?</a></span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <script src="js/modal.js"></script>
+            <script src="js/modal2.js"></script>
+</body>
+
+</html>
