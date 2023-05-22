@@ -1,19 +1,19 @@
 
-var modal = document.getElementById("Modal2");
+var modal2 = document.getElementById("Modal2");
 
-var btn = document.getElementById("Btn2");
+var btn2 = document.getElementById("Btn2");
 
 var span = document.getElementsByClassName("close-sobre")[0];
-btn.onclick = function() {
-  modal.style.display = "block";
+btn2.onclick = function() {
+  modal2.style.display = "block";
 }
 
 span.onclick = function() {
-  modal.style.display = "none";
+  modal2.style.display = "none";
 }
 
 window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  if (event.target == modal2) {
+    modal2.style.display = "none";
   }
 }
